@@ -16,8 +16,20 @@ call dein#add('Shougo/vimproc.vim', {
 call dein#add('Shougo/unite.vim')
 
 
-" Pluguins go here!
+" Theme
+colorscheme one
+set background=dark
+let g:airline_theme = 'onedark'
+let g:one_allow_italics = 1
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+set termguicolors
+" END Theme
+
+
+" Plugins go here!
 set runtimepath^=~/.config/nvim/dein/bundle/ctrlp.vim
+call dein#add('vim-airline/vim-airline')
+call dein#add('vim-airline/vim-airline-themes')
 
 call dein#end()
 " END Plugin list
@@ -29,11 +41,3 @@ call dein#end()
 " END basic configs
 
 
-" Theme
-colorscheme one
-set background=dark
-let g:airline_theme = 'one'
-let g:one_allow_italics = 1
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-set termguicolors
-" END Theme

@@ -1,2 +1,2 @@
 100
-['Shougo/dein.vim', 'Shougo/unite.vim', 'Shougo/vimproc.vim']
+['Shougo/dein.vim', 'Shougo/unite.vim', 'Shougo/vimproc.vim', 'vim-airline/vim-airline', 'vim-airline/vim-airline-themes']
